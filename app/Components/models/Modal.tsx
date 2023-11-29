@@ -59,6 +59,7 @@ const ModalStyled = styled.div`
         border-radius: ${(props)=> props.theme.borderRadiusMd2};
         @media screen and (max-width: 375;){
             padding: 1rem;
+            height: 80vh;
         }
     }
 `;

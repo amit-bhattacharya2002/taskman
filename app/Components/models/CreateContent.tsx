@@ -103,7 +103,7 @@ const CreateContentStyled = styled.form`
         font-weight: 600;
 
     }
-
+    height: 100%;
 
     border-radius: ${(props)=> props.theme.borderRadiusMd2};
     color: ${(props)=> props.theme.colorGrey1};
