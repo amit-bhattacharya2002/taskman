@@ -34,6 +34,8 @@ const ModalStyled = styled.div`
     justify-content: center;
     align-items: center;
 
+    
+
     .modal-overlay{
         position: absolute;
         top: 0;
@@ -55,6 +57,9 @@ const ModalStyled = styled.div`
         background-color: ${(props)=> props.theme.colorBg2};
         box-shadow: 0 0 1rem rgba(0,0,0,0.3);
         border-radius: ${(props)=> props.theme.borderRadiusMd2};
+        @media screen and (max-width: 375;){
+            padding: 1rem;
+        }
     }
 `;
 
